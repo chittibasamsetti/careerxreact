@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+import App1 from "./App1";
+import App2 from "./App2";
+function App(props) {
+  const flg = props.flag;
+  console.log(props.flag)
+  if (flg) {
+    return <App1 />;
+  } else {
+    return <App2 />;
+  }
 }
 
 export default App;
