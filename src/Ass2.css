@@ -1,0 +1,50 @@
+body{
+    background-color: beige;
+    
+    font-style: italic;
+}
+.email{
+    width:300px;
+    height:30px;
+   margin-left:40px;
+   border-radius:5px;
+   border:black;
+   font-weight: bold;
+}
+
+.login{
+    width:305px;
+    height:30px;
+   margin-left:40px;
+   border-radius:5px;
+   background-color:blue;
+   border:none;
+   border:black;
+   color:white;
+    font-weight: bold;
+
+}
+.create{ 
+    width:305px;
+    height:30px;
+   margin-left:40px;
+   border-radius:5px;
+   margin-top:30px;
+   background-color:green;
+   border:none;
+   border:black;
+   color:white;
+   font-weight: bold;
+}
+.nav{
+    height:80px;
+    width:100%;
+    background-color: cadetblue;
+    font-size: 20px;
+    font-family: verdana;
+    font-style: normal;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}

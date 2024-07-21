@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
-import Home from "./Home";
+import Home from "./Home";  //file paths
 import Contact from "./Contact";
 import About from "./About";
 import Login from "./Login"
@@ -16,7 +16,7 @@ export default function App22() {
         </p>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/home" element={<Home/>} />
+          <Route path="/home" element={<Home/>} />  {/* url paths */}
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/login" element={<Login/>} />
